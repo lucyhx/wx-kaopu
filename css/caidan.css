@@ -9,20 +9,69 @@
 .col-xs-10 h3{
   text-align: center;
   color: white;
-  margin-bottom: 10%;
-  margin-top: 10%;
+  margin-bottom: 8%;
+  margin-top: 8%;
 }
-
+.zt .col-xs-3 {
+  padding:0;
+}
+.zt .container-fluid {
+  padding:0;
+}
 #kinds {
   background-color: #f8f8f8;
+  width:100%;
+  height:auto;
 }
 .box-1 {
   width:100%;
 }
 .box-1 img {
-  margin-top: 10%;
+  margin-top: 20%;
 }
 
 .box-1 p {
   text-align: center;
+}
+
+.kind {
+  margin-top: 5%;
+}
+.col-xs-6{
+  padding-left: 0;
+}
+.col-xs-6 img {
+  width: 100%;
+  height: auto;
+}
+.money {
+  text-align: right;
+}
+.money-f {
+  color:red;
+  margin-bottom: 0;
+}
+.money-n {
+  font-size: 30px;
+  color: red;
+}
+.money-l {
+  : right;
+}
+.money-l img {
+  width:40%;
+  /*margin-top: -50%;*/
+}
+.number {
+  /*margin-top: -20%;*/
+}
+.number-over {
+  font-size: 25px;
+  color: #dddddd;
+  text-align: right;
+}
+
+.total img {
+  width:100%;
+  height:auto;
 }
