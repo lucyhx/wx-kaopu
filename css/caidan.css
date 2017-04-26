@@ -1,31 +1,36 @@
-#cd{
+#cd {
   background-color: #000000;
 }
 
-.col-xs-2 img{
+.col-xs-2 img {
   margin-top: 30px;
 }
 
-.col-xs-10 h3{
+.col-xs-10 h3 {
   text-align: center;
   color: white;
   margin-bottom: 8%;
   margin-top: 8%;
 }
+
 .zt .col-xs-3 {
-  padding:0;
+  padding: 0;
 }
+
 .zt .container-fluid {
-  padding:0;
+  padding: 0;
 }
+
 #kinds {
   background-color: #f8f8f8;
-  width:100%;
-  height:auto;
+  width: 100%;
+  height: auto;
 }
+
 .box-1 {
-  width:100%;
+  width: 100%;
 }
+
 .box-1 img {
   margin-top: 20%;
 }
@@ -37,34 +42,42 @@
 .kind {
   margin-top: 5%;
 }
-.col-xs-6{
+
+.col-xs-6 {
   padding-left: 0;
 }
+
 .col-xs-6 img {
   width: 100%;
   height: auto;
 }
+
 .money {
   text-align: right;
 }
+
 .money-f {
-  color:red;
+  color: red;
   margin-bottom: 0;
 }
+
 .money-n {
   font-size: 30px;
   color: red;
 }
-.money-l {
-  : right;
+
+.money-l {: right;
 }
+
 .money-l img {
-  width:40%;
+  width: 40%;
   /*margin-top: -50%;*/
 }
+
 .number {
   /*margin-top: -20%;*/
 }
+
 .number-over {
   font-size: 25px;
   color: #dddddd;
@@ -72,6 +85,6 @@
 }
 
 .total img {
-  width:100%;
-  height:auto;
+  width: 100%;
+  height: auto;
 }
