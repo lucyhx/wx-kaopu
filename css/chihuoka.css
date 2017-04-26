@@ -1,0 +1,34 @@
+#chk {
+  background-color: black;
+}
+.col-xs-2 img{
+  margin-top: 30px;
+}
+.col-xs-10 h3{
+  text-align: center;
+  color: white;
+  margin-bottom: 8%;
+  margin-top: 8%;
+}
+.chk img {
+  width: 100%;
+  height: auto;
+}
+.chk-p {
+  margin-top: 5%;
+}
+.input-group {
+  display: block;
+}
+
+.col-xs-8 {
+  padding: 0;
+}
+.col-xs-4 {
+  padding-left: 2%;
+  padding-right: 0;
+}
+
+.form-control {
+  padding:0;
+}
