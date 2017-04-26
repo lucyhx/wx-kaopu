@@ -1,16 +1,41 @@
-#cd {
+/*head*/
+#header {
+  position: relative;
+  width: 100%;
+  height: 10%;
   background-color: #000000;
+  text-align: center;
+}
+
+#header > img {
+  position: absolute;
+  width: auto;
+  height: 60%;
+  left: 4%;
+  top: 20%;
+}
+
+#header > h3 {
+  text-align: center;
+  color: white;
+  padding-top: .6em;
+}
+
+/*container*/
+.container {
+  width: 100%;
+  height: 80%;
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  width: 100%;
+  height: 100%;
 }
 
 .col-xs-2 img {
   margin-top: 30px;
-}
-
-.col-xs-10 h3 {
-  text-align: center;
-  color: white;
-  margin-bottom: 8%;
-  margin-top: 8%;
 }
 
 .zt .col-xs-3 {
@@ -84,7 +109,13 @@
   text-align: right;
 }
 
-.total img {
+/*footer*/
+#footer {
+  width: 100%;
+  height: auto;
+}
+
+#footer img {
   width: 100%;
   height: auto;
 }
