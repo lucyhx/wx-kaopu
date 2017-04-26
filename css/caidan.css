@@ -1,0 +1,28 @@
+#cd{
+  background-color: #000000;
+}
+
+.col-xs-2 img{
+  margin-top: 30px;
+}
+
+.col-xs-10 h3{
+  text-align: center;
+  color: white;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+#kinds {
+  background-color: #f8f8f8;
+}
+.box-1 {
+  width:100%;
+}
+.box-1 img {
+  margin-top: 10%;
+}
+
+.box-1 p {
+  text-align: center;
+}
