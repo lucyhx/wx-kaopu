@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/kaopu.iml" filepath="$PROJECT_DIR$/.idea/kaopu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/wx-kaopu.iml" filepath="$PROJECT_DIR$/.idea/wx-kaopu.iml" />
     </modules>
   </component>
 </project>

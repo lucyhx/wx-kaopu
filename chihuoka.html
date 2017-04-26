@@ -10,46 +10,57 @@
   <link href="css/chihuoka.css" rel="stylesheet">
 </head>
 <body>
-<div id="chk">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-2 ">
-        <img src="image/jt-top.png">
-      </div>
-      <div class="col-xs-10">
-        <h3>办理吃货卡</h3>
-      </div>
-    </div>
-  </div>
-</div>
 <div class="chk">
-<img src="image/chihuoka.png">
+  <img src="image/chihuoka.png">
 </div>
 <div class="container">
-<div class="chk-p">
-  推荐码（选填）
-</div>
-<div class="input-group">
-  <input type="text" class="form-control" aria-describedby="sizing-addon2">
-</div>
-  <div class="chk-p">
-    电话号码
-  </div>
-  <div class="input-group">
-    <input type="text" class="form-control" aria-describedby="sizing-addon2">
-  </div>
-  <div class="chk-p">
-    手机验证码
-  </div>
-  <div class="input-group">
-    <div class="col-xs-8">
-    <input type="text" class="form-control" aria-describedby="sizing-addon2">
+  <form>
+    <div class="form-group">
+      <label for="exampleInputtuijianma">推荐码（选填）</label>
+      <input type="email" class="form-control" id="exampleInputtuijianma" placeholder="">
     </div>
-    <div class="col-xs-4">
-    <input type="text" class="form-control" placeholder="手机验证码" aria-describedby="sizing-addon2">
+    <div class="form-group">
+      <label for="exampleInputphone">电话号码</label>
+      <input type="password" class="form-control" id="exampleInputphone" placeholder="">
     </div>
 
-  </div>
+
+    <div class="form-group">
+      <label for="inputphoneyz">手机验证码</label>
+      <div class="row row-phone">
+        <div class="col-xs-8">
+          <input type="password" class="form-control" id="inputphoneyz" placeholder="">
+        </div>
+
+        <div class="col-xs-4">
+          <button class="btn btn-default" type="submit">获取验证码</button>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>购买吃货卡</label>
+      <div>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 一个月
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1"> 三个月
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option1"> 半年
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option1"> 一年
+        </label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="Inputpaymedthod">支付方式</label>
+      <input type="email" class="form-control" id="Inputpaymedthod" placeholder="微信支付">
+    </div>
+    <button type="button" class="btn btn-primary btn-lg btn-block">立即购买</button>
+  </form>
+</div>
 
 
 </div>
