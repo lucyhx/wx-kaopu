@@ -10,96 +10,106 @@
   height: 100%;
 }
 
+/*left*/
 #left {
   position: fixed;
   width: 20%;
+  height: 100%;
   left: 0;
   top: 0;
-}
-
-#right {
-  position: fixed;
-  width: 80%;
-  right: 0;
-  top: 0;
-}
-
-.col-xs-2 img {
-  margin-top: 30px;
-}
-
-.zt .col-xs-3 {
-  padding: 0;
-}
-
-.zt .container-fluid {
-  padding: 0;
-}
-
-#kinds {
+  overflow: scroll;
   background-color: #f8f8f8;
+}
+
+/*kinds*/
+#kinds {
+  text-align: center;
   width: 100%;
   height: auto;
 }
 
-.box-1 {
+/*kind*/
+.kind {
   width: 100%;
+  height: auto;
 }
 
-.box-1 img {
+.kind img {
   margin-top: 20%;
 }
 
-.box-1 p {
+.kind p {
   text-align: center;
 }
 
-.kind {
-  margin-top: 5%;
+/*right*/
+#right {
+  position: fixed;
+  width: 80%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  overflow: scroll;
 }
 
-.col-xs-6 {
-  padding-left: 0;
+/*food*/
+.food {
+  padding: .1em;
+  text-align: center;
 }
 
-.col-xs-6 img {
+.food-img img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
-.money {
-  text-align: right;
+.food .col-xs-6 {
+  padding: .3em;
+}
+
+.food-info {
+  margin-top: 1em;
+}
+
+.food-info > p {
+  text-align: center;
 }
 
 .money-f {
   color: red;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .money-n {
-  font-size: 30px;
   color: red;
+  font-size: 3rem;
 }
 
-.money-l {: right;
+.money-l {
+  font-size: 2rem;
 }
 
-.money-l img {
-  width: 40%;
-  /*margin-top: -50%;*/
+.food-number {
+  text-align: center;
 }
 
-.number {
-  /*margin-top: -20%;*/
+.food-number b {
+  font-size: 2rem;
 }
 
-.number-over {
-  font-size: 25px;
-  color: #dddddd;
-  text-align: right;
+/*bottom*/
+#bottom-left {
+  height: 6em;
+}
+
+#bottom-right {
+  height: 6em;
 }
 
 /*footer*/
+#footer {
+}
+
 #footer img {
   width: 100%;
   height: auto;
