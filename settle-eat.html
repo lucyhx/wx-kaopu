@@ -15,12 +15,17 @@
     <p class="box-p">吃货卡减免一份</p>
   </div>
   <div class="box">
-    <p>就餐方式</p>
+
+       <div>
+         <p>就餐方式</p>
+       </div>
+        <img src="image/u107-1.png">
+
   </div>
   <div class="box box-variety">
     <div class="variety">
       <p>娘子烤肉饭
-        <small></small>
+        <small>￥</small>
         <a class="box-w">16.00</a></p>
       <div class="input-group">
       <span class="input-group-btn">
@@ -33,15 +38,15 @@
       </div>
     </div>
     <div class="variety">
-      <p>欧巴烤肉饭
-        <small></small>
-        16.00
+      <p>欧巴烤肉饭（超万份）
+        <small>￥</small>
+        <a class="box-w">15.00</a>
       </p>
       <div class="input-group">
       <span class="input-group-btn">
         <button class="btn btn-default" type="button">＋</button>
       </span>
-        <input type="text" class="form-control" placeholder="1">
+        <input type="text" class="form-control" placeholder="2">
         <span class="input-group-btn">
         <button class="btn btn-default" type="button">—</button>
       </span>
@@ -49,8 +54,60 @@
     </div>
   </div>
   <div class="box">
-    <p>已选3份</p>
+    <p>已选<a class="box-w">3</a>份</p>
+    <p> 共计：
+      <del>
+        <a class="box-w">
+          <small>￥</small>
+          46.00</a></del>
+      <a class="box-w"><big>￥30.00</big></a></p>
   </div>
+  <div class="box-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-3">
+          <p>联系人： </p>
+        </div>
+        <div class="col-xs-9">
+          <p>张三 18800001234</p>
+          <button type="button" class="btn btn-default">修改信息</button>
+        </div>
+      </div>
+      <div class="row middle">
+        <div class="col-xs-3">
+          <p>备注： </p>
+        </div>
+        <div class="col-xs-9">
+          <textarea class="form-control" row="3" placeholder="如：配送要求、特殊忌口等"></textarea>
+        </div>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-xs-3">
+          <p>温馨提示：</p>
+        </div>
+        <div class="col-xs-9">
+          <p><a class="box-w">您的取餐号码为手机后四位</a></p>
+        </div>
+      </div>
+  </div>
+  <div class="box">
+    <div class="form-group">
+      <label>支付方式</label>
+      <div>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 微信支付
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1"> 余额支付（余额20元）
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option1"> 现金支付
+        </label>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="btn btn-primary btn-lg btn-block">提交</button>
 </div>
 
 </body>
