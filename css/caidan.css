@@ -86,7 +86,7 @@
 }
 
 .money-l {
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .food-number {
@@ -95,6 +95,12 @@
 
 .food-number b {
   font-size: 2rem;
+}
+
+.food-number-over {
+  font-size: 2rem;
+  color: #dddddd;
+  text-align: right;
 }
 
 /*bottom*/
