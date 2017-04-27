@@ -3,30 +3,50 @@
   position: fixed;
   width: 100%;
   height: 100%;
-  background-position:center;
+  background-position: center;
 
 }
- .infor {
-   background-image: url("../image/information-bg.png");
-   background-position:center;
-   background-repeat: no-repeat;
- }
 
- .btn-success {
-   background-color: #23527c;
-   border-color: #23527c;
+.infor {
+  position: relative;
+}
 
- }
+.infor > img {
+  width: 100%;
+  height: auto;
+}
 
- .box {
-   background-color: white;
-   text-align: justify;
- }
- /*.box p {
-   text-align: left;
-   float: left;
- }
+.infor-title {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+}
 
- .right {
-   text-align: right;
- }*/
+.btn-success {
+  background-color: #23527c;
+  border-color: #23527c;
+
+}
+
+.box {
+  background-color: white;
+  text-align: justify;
+}
+
+/*.box p {
+  text-align: left;
+  float: left;
+}
+
+.right {
+  text-align: right;
+}*/
