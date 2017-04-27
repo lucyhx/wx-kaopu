@@ -1,0 +1,34 @@
+#settle-bg {
+  background-color:#f8f8f8;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: white;
+}
+ .box-w {
+   color: red;
+ }
+
+ .variety {
+   display: -webkit-flex; /* Safari */
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .input-group {
+   width: 40%;
+ }
+ .variety-1 {
+   display: -webkit-flex; /* Safari */
+   display: flex;
+   justify-content: space-between;
+ }
