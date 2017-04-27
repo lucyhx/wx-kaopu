@@ -84,6 +84,10 @@
   text-align: center;
 }
 
+.food-money {
+  text-align: right;
+}
+
 .food-info > b {
   font-size: 1.5em;
 }
@@ -118,7 +122,7 @@
 .food-number-over {
   font-size: 1.5em;
   color: #dddddd;
-  text-align: right;
+  float: right;
 }
 
 /*bottom*/
