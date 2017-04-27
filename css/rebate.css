@@ -1,0 +1,21 @@
+#rebate-bg {
+  background-color: #f8f8f8;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+}
+
+.box {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: white;
+}
+
+.box p {
+  padding: 10px 0 10px 5px;
+}
+
+.radio {
+  padding: 10px 0 10px 5px;
+}
