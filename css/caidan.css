@@ -55,24 +55,37 @@
 /*food*/
 .food {
   padding: .1em;
-  text-align: center;
 }
 
-.food-img img {
+/*food-box*/
+.food-box {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+
+/*food-img*/
+.food-img {
+  width: 50%;
+}
+
+.food-img > img {
   width: 100%;
   height: 100%;
 }
 
-.food .col-xs-6 {
-  padding: .3em;
-}
-
+/*food-info*/
 .food-info {
-  margin-top: 1em;
+  width: 50%;
+  text-align: center;
 }
 
-.food-info > p {
-  text-align: center;
+.food-info > b {
+  font-size: 1.5em;
 }
 
 .money-f {
@@ -82,23 +95,28 @@
 
 .money-n {
   color: red;
-  font-size: 3rem;
+  font-size: 2.5em;
 }
 
 .money-l {
-  font-size: 1.2rem;
+  font-size: 1em;
 }
 
 .food-number {
-  text-align: center;
+  justify-content: center;
 }
 
-.food-number b {
-  font-size: 2rem;
+.food-number > img {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.food-number > b {
+  font-size: 1.5em;
 }
 
 .food-number-over {
-  font-size: 2rem;
+  font-size: 1.5em;
   color: #dddddd;
   text-align: right;
 }
