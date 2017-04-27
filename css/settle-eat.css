@@ -19,18 +19,27 @@
   color: red;
 }
 
+.box-variety {
+  width: 100%;
+  display: block;
+}
+
 .variety {
   display: -webkit-flex; /* Safari */
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.variety > p {
+  margin: 0;
+  padding: 0;
 }
 
 .input-group {
   width: 40%;
-}
-
-.variety-1 {
-  display: -webkit-flex; /* Safari */
-  display: flex;
-  justify-content: space-between;
 }
