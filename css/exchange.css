@@ -1,0 +1,26 @@
+#exchange-bg {
+  background-color: #f8f8f8;
+}
+.table > tbody > tr > th {
+  vertical-align: middle;
+  height: 50px;
+  text-align: center;
+}
+
+tr {
+  text-align: center;
+}
+td {
+  color: #9d9d9d;
+}
+.table > tbody > tr > td {
+  vertical-align: middle;
+  border-top: 1px ridge #e8e8e8;
+}
+
+.result{
+  color: #4cae4c;
+}
+.btn {
+  padding: 0;
+}
