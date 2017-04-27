@@ -55,7 +55,7 @@
 /*food*/
 .food {
   padding: .1em;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .food-img img {
@@ -67,12 +67,15 @@
   padding: .3em;
 }
 
-.food-info {
+/*.food-info {
   margin-top: 1em;
 }
 
 .food-info > p {
   text-align: center;
+}*/
+.food-money {
+  text-align: right;
 }
 
 .money-f {
@@ -100,7 +103,7 @@
 .food-number-over {
   font-size: 2rem;
   color: #dddddd;
-  text-align: right;
+  float: right;
 }
 
 /*bottom*/
