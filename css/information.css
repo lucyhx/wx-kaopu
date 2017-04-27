@@ -32,8 +32,10 @@
 }
 
 .btn-success {
-  background-color: #23527c;
-  border-color: #23527c;
+  background-color: #31b0d5;
+  border-color: #31b0d5;
+  width: 100px;
+  height: 30px;
 
 }
 
@@ -42,11 +44,12 @@
   text-align: justify;
 }
 
-/*.box p {
-  text-align: left;
-  float: left;
+.box {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.right {
-  text-align: right;
-}*/
