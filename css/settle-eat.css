@@ -18,13 +18,11 @@
 }
 
 .dining{
-  justify-content: space-between;
+  display: block;
 }
 
 .dining p {
   white-space: nowrap;
-  margin: 0;
-  padding: 0;
 }
 
 .dining img {
