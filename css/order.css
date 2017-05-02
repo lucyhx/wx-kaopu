@@ -3,7 +3,8 @@
   text-align: center;
 }
 
-.btn-lg {
+.btn-title {
+  font-size: small;
   width: 24%;
 }
 
