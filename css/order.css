@@ -1,5 +1,12 @@
+#order-bg {
+  background-color: #f8f8f8;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
 .contents {
-  /*padding: 5px;*/
+  padding: 5px;
   text-align: center;
 }
 
@@ -8,18 +15,9 @@
   width: 24%;
 }
 
-#order-bg {
-  background-color: #f8f8f8;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-}
-
 .box {
   border: solid 1px #9d9d9d;
   background-color: white;
-  margin-top: 3%;
-
 }
 
 .box-1 {
@@ -41,7 +39,7 @@
 .middle {
   border-top: #cccccc 1px solid;
   border-bottom: #cccccc 1px solid;
-  margin:3%;
+  margin: 3%;
   padding-top: 3%;
   padding-bottom: 3%;
 
@@ -62,6 +60,10 @@
   text-align: right;
 }
 
+.box-bottom {
+  text-align: right;
+  padding: 5px;
+}
+
 .btn-box {
-  float:right;
 }
