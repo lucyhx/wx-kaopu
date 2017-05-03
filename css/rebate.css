@@ -19,3 +19,9 @@
 .radio {
   padding: 10px 0 10px 5px;
 }
+
+.btn-primary {
+  background-color: gold;
+  border-color: khaki;
+  color: black;
+}

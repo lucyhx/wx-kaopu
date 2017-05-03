@@ -25,3 +25,9 @@ form {
 .box > label {
   margin-right: 30px;
 }
+
+.btn-primary {
+  background-color: gold;
+  border-color: khaki;
+  color: black;
+}

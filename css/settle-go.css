@@ -78,3 +78,7 @@
   padding-bottom: 3%;
 
 }
+.btn-primary {
+  background-color: gold;
+  border-color: khaki;
+}
